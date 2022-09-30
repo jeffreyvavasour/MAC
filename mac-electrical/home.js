@@ -15,11 +15,3 @@ mobileNavToggle.addEventListener('click', function() {
         mobileNavToggle.style.backgroundImage = 'url(./assets/images/icon-hamburger.svg)';
     }
 })
-
-// on scroll
-window.onscroll = function() {
-    if (document.documentElement.scrollTop > 82) {
-        primaryHeader.style.backgroundColor = "hsl( var(--clr-dark), 0.95)";
-    } else {
-        primaryHeader.style.backgroundColor = "transparent";
-}};
