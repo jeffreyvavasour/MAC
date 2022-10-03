@@ -78,6 +78,13 @@ mobileNavToggle.addEventListener('click', function() {
     }
 })
 
+document.addEventListener('click', (e) => {
+    if (e.target.id !== 'primary-nav' && e.target.id !== 'nav-toggle' && e.target.id !== 'btn-top-of-page') {
+        primaryNav.setAttribute('data-visible', 'false');
+        mobileNavToggle.style.backgroundImage = 'url(./assets/images/icon-hamburger.svg)';
+    };
+});
+
 // more services tabs
 tabs.forEach(tab => {
     createContent(tab);

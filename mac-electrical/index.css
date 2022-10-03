@@ -335,7 +335,7 @@ h1 {
 .banner {
     display: grid;
     place-content: center;
-    height: 340px;
+    height: 400px;
     color: hsl( var(--clr-light) );
     background-image: url(./assets/images/image-banner.jpg);
     background-repeat: no-repeat;
@@ -346,6 +346,9 @@ h1 {
 .banner hr {
     justify-self: center;
     background-color: hsl( var(--clr-light) );
+}
+.banner h2 {
+    text-align: center;
 }
 
 /* form */
@@ -495,7 +498,7 @@ h1 {
         display: block;
         position: fixed;
         top: 2.5rem;
-        left: 2.5rem;
+        left: 2rem;
         height: 1.5rem;
         aspect-ratio: 1;
         z-index: 1000;
@@ -1285,6 +1288,15 @@ footer {
 /* footer */
 .contact footer {
     --flow-space: 1rem;
+}
+
+/* MORE SERVICES PAGES */
+/* content */
+@media (min-width: 60rem) {
+    .more-services-content {
+        width: 60%;
+        --flow-space: 2rem;
+    }
 }
 
 /* ----------------- */
