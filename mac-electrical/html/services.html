@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAC Electrical - Home</title>
-    <!-- css -->
-    <link rel="stylesheet" href="css/index.css">
+    <title>MAC Electrical - Our Services</title>
+    <link rel="stylesheet" href="../css/index.css">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Libre+Franklin:wght@100;200;300;400;500;600;800;900&family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@500;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- logo icon -->
@@ -14,13 +13,13 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="home">
+<body class="services">
     <!-- PRIMARY HEADER -->
     <header class="primary-header">
         <div class="container primary-header--container flex">
             <button class="mobile-nav-toggle" id="nav-toggle"></button>
             <div id="logo">
-                <a href="./index.html">
+                <a href="../index.html">
                     <div class="logo flex">
                         <div class="logo-icon flex">
                             <span class="material-symbols-outlined md-56 clr-accent">
@@ -40,16 +39,16 @@
             </div>
             <nav class="primary-nav" id="primary-nav" data-visible="false">
                 <ul class="primary-nav-list flex capitalize fs-300">
-                    <a href="./index.html" class="primary-nav-link">
+                    <a href="../index.html" class="primary-nav-link">
                         <li class="primary-nav-list-item">home</li>
                     </a>
-                    <a href="html/services.html" class="primary-nav-link">
+                    <a href="./services.html" class="primary-nav-link">
                         <li class="primary-nav-list-item">services</li>
                     </a>
-                    <a href="html/about.html" class="primary-nav-link">
+                    <a href="./about.html" class="primary-nav-link">
                         <li class="primary-nav-list-item">about</li>
                     </a>
-                    <a href="html/contact.html" class="primary-nav-link">
+                    <a href="./contact.html" class="primary-nav-link">
                         <li class="primary-nav-list-item">contact</li>
                     </a>
                 </ul>
@@ -66,140 +65,103 @@
             </div>
         </div>
     </header>
-    <!-- HERO -->
-    <div class="hero">
-        <div class="container container-hero flex">
-            <div class="hero-left-side">
-                <div class="hero-left-content flow">
-                    <h1 class="fw-700 fs-800">Tried and Trusted <span class="text-">Electricians</span> in Dublin</h1>
-                    <h2 class="fs-500">We provide excellent service with an honest approach</h2>
-                    <div class="hero-links flex">
-                        <a href="tel:0831856498">
-                            <button class="button button-hero">call us</button>
-                        </a>
-                        <a href="html/services.html">
-                            <button class="button button-hero">our services</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="hero-right-side">
-                <div class="hero-right-content">
-                    <form class="form form-hero flow" action="https://formsubmit.co/jeffreyvavasour@gmail.com" method="POST">
-                        <div class="form-text">
-                            <h2 class="fs-700 fw-700 uppercase">get a quote</h2>
-                            <p class="fs-500">fill out this form:</p>
-                        </div>
-                        <input type="text" name="name" placeholder="Name">
-                        <input type="email" name="email" placeholder="Email">
-                        <input type="number" name="number" placeholder="Phone">
-                        <textarea name="message" id="message" placeholder="Your message..."></textarea>
-                        <input type="hidden" name="_next" value="http://jeffsproject.com/thank-you.html">
-                        <button type="submit" value="Get Quote" class="button">Get Quote</button>
-                    </form>
-                </div>
-            </div>
-        </div>
+    <!-- BANNER -->
+    <div class="banner">
+        <h2 class="fs-800 fw-700 capitalize">our services</h2>
+        <hr class="hr">
     </div>
-    <!-- ABOUT SECTION -->
-    <section class="about">
-        <div class="container container-about flex">
-            <div class="about-image">
-                <img src="./assets/images/image-banner.jpg" alt="image">
+    <!-- SERVICES TICK LIST -->
+    <section class="container container-tick-list flex">
+        <div class="about-content-text flow">
+            <h2 class="fs-700 fw-700 capitalize">electrician services</h2>
+            <hr class="hr">
+            <h3 class="fs-500 fw-700">Our company specializes in electrical wiring and repair. We carry out any projects with our hearts and are not afraid of difficulties!</h3>
+            <p>Our team has been developing over the years. Today it includes only highly qualified specialists with experience and their own best practices. We boldly look into the future and confidently master new technologies, we always offer our customers different options and solutions. It's convenient and comfortable with us!</p>
+        </div>
+        <div class="tick-list-div flex">
+            <div class="tick-list-one flex">
+                <ul>
+                    <li>Emergency</li>
+                    <li>House Rewiring</li>
+                    <li>House Repairs</li>
+                    <li>Security Lighting</li>
+                    <li>Emergency Lighting</li>
+                </ul>
             </div>
-            <div class="about-content flow">
-                <div class="about-content-text flow">
-                    <h2 class="fs-700 fw-700 capitalize">about us</h2>
-                    <hr class="hr">
-                    <h3 class="fs-500 fw-700">Our company specializes in electrical wiring and repair. We carry out any projects with our hearts and are not afraid of difficulties!</h3>
-                    <p>Our team has been developing over the years. Today it includes only highly qualified specialists with experience and their own best practices. We boldly look into the future and confidently master new technologies, we always offer our customers different options and solutions. It's convenient and comfortable with us!</p>
-                </div>
-                <div class="about-stats flex">
-                    <div class="about-stat flow">
-                        <div class="about-stat-number flex">
-                            <p class="fs-800">25</p>
-                            <p class="fs-600">+</p>
-                        </div>
-                        <p class="fs-500 fw-700">Years of experience</p>
-                    </div>
-                    <div class="about-stat flow">
-                        <div class="about-stat-number flex">
-                            <p class="fs-800">25</p>
-                            <p class="fs-600">+</p>
-                        </div>
-                        <p class="fs-500 fw-700">Years of experience</p>
-                    </div>
-                    <div class="about-stat flow">
-                        <div class="about-stat-number flex">
-                            <p class="fs-800">25</p>
-                            <p class="fs-600">+</p>
-                        </div>
-                        <p class="fs-500 fw-700">Years of experience</p>
-                    </div>
-                </div>
+            <div>
+                <ul>
+                    <li>Fire Alarms</li>
+                    <li>Safety Inspections</li>
+                    <li>Commercial & Contractors</li>
+                    <li>Electrical Testing</li>
+                    <li>24/7 Call Out</li>
+                </ul>
             </div>
         </div>
     </section>
-    <!-- SERVICES SECTION -->
+    <!-- POPULAR SERVICES SECTION -->
     <section class="services">
         <div class="container container-services flow">
             <div class="services-heading flow">
-                <h2 class="fs-700 fw-700 capitalize">services</h2>
-                <hr class="hr-big">
+                <h2 class="fs-700 fw-700 capitalize">popular services</h2>
+                <hr class="hr">
             </div>
             <div class="services-cards flex">
                 <div class="services-card services-card-one flow">
                     <h3 class="fs-700 fw-600 capitalize">emergency electrician</h3>
                     <p>We know that every home and business will have a different set of requirements, which is why all our services are completely tailored to suit you. At Electricians Dublin, our team is fully qualified, with experience to back it up.</p>
-                    <a href="html/emergency-electrician.html" class="button d-inline-block capitalize">find out more</a>
+                    <a href="./emergency-electrician.html" class="button d-inline-block capitalize">find out more</a>
                 </div>
                 <div class="services-card services-card-two flow">
                     <h3 class="fs-700 fw-600 capitalize">domestic electrician</h3>
                     <p>We know that every home and business will have a different set of requirements, which is why all our services are completely tailored to suit you. At Electricians Dublin, our team is fully qualified, with experience to back it up.</p>
-                    <a href="html/domestic-electrician.html" class="button d-inline-block capitalize">find out more</a>
+                    <a href="./domestic-electrician.html" class="button d-inline-block capitalize">find out more</a>
                 </div>
                 <div class="services-card services-card-three flow">
                     <h3 class="fs-700 fw-600 capitalize">commercial electrician</h3>
                     <p>We know that every home and business will have a different set of requirements, which is why all our services are completely tailored to suit you. At Electricians Dublin, our team is fully qualified, with experience to back it up.</p>
-                    <a href="html/commercial-electrician.html" class="button d-inline-block capitalize">find out more</a>
+                    <a href="./commercial-electrician.html" class="button d-inline-block capitalize">find out more</a>
                 </div>
-            </div>
-            <div class="services-link">
-                <a href="html/services.html" class="button capitalize d-inline-block">
-                    view all services
-                </a>
             </div>
         </div>
     </section>
-    <!-- BS SECTION -->
-    <section class="bs">
-        <div class="container container-bs">
-            <div class="contact-info flex">
-                <div class="contact-info-item flex">
-                    <div class="contact-info-item-icon grid">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                    </div>
-                    <h4 class="fs-500 fw-600 capitalize">phone:</h4>
-                    <hr class="hr">
-                    <p class="fs-400">083 185 6498</p>        
+    <!-- MORE SERVICES SECTION -->
+    <section class="more-services">
+        <div class="container container-more-services flow">
+            <div class="services-heading flow">
+                <h2 class="fs-700 fw-700 capitalize">more services</h2>
+                <hr class="hr">
+            </div>
+            <div class="more-services-content">
+                <div class="tabs">
+                    <ul class="flex">
+                        <li class="active tab tab-wiring capitalize flex" data-id="wiring">wiring</li>
+                        <li class="tab tab-lighting capitalize flex" data-id="lighting">lighting</li>
+                        <li class="tab tab-heating capitalize flex" data-id="heating">heating</li>
+                        <li class="tab tab-safety capitalize flex" data-id="safety">safety & security</li>
+                        <li class="tab tab-heating capitalize flex" data-id="communication">communication</li>
+                    </ul>
                 </div>
-                <div class="contact-info-item flex">
-                    <div class="contact-info-item-icon grid">
-                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                <div class="tabs-content">
+                    <div class="tabs-content-info flex">
+                        <div class="about-image our-mission-image">
+                            <img class="tabs-content-image" src="../assets/images/image-person.jpg" alt="image">
+                        </div>
+                        <div class="about-content flow">
+                            <div class="about-content-text flow">
+                                <div class="services-heading flow">
+                                    <h2 class="tabs-content-heading fs-600 fw-700 capitalize">LED Upgrades & Energy Saving</h2>
+                                    <hr class="hr">
+                                </div>
+                                <!-- <h3 class="fs-500 fw-700">Our company specializes in electrical wiring and repair. We carry out any projects with our hearts and are not afraid of difficulties!</h3> -->
+                                <p class="tabs-content-para-one">Our team has been developing over the years. Today it includes only highly qualified specialists with experience and their own best practices. We boldly look into the future and confidently master new technologies, we always offer our customers different options and solutions. It's convenient and comfortable with us!</p>
+                                <p class="tabs-content-para-two">Our team has been developing over the years. Today it includes only highly qualified specialists with experience and their own best practices.</p>
+                                <a href="./contact.html" style="display: block;">
+                                    <button class="button">Get a Quote</button>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <h4 class="fs-500 fw-600 capitalize">opening hours:</h4>
-                    <hr class="hr">
-                    <p class="fs-400">Mon - Fri : 8am to 6pm</p>
-                    <p class="fs-400">Sat : 10am - 3pm</p>
-                    <p class="fs-400">Sunday Close</p>  
-                </div>
-                <div class="contact-info-item flex">
-                    <div class="contact-info-item-icon grid">
-                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                    </div>
-                    <h4 class="fs-500 fw-600 capitalize">email:</h4>
-                    <hr class="hr">
-                    <p class="fs-400">jeffreyvavasour@gmail.com</p>
                 </div>
             </div>
         </div>
@@ -223,30 +185,30 @@
                             team will reply your questions asap.</p>
                     </div>
                 </div>
-                    <form action="https://formsubmit.co/jeffreyvavasour@gmail.com" method="POST" class="contact-form grid">
-                        <div class="name">
-                            <input type="text" id="name" name="name" placeholder="Name">
-                        </div>
-                        <div class="email">
-                            <input type="email" id="email" name="email" placeholder="Email">
-                        </div>
-                        <div class="phone">
-                            <input type="number" id="phone" name="number" placeholder="Phone">
-                        </div>
-                        <div class="eircode">
-                            <input type="text" id="eircode" name="eircode" placeholder="Eircode">
-                        </div>
-                        <div class="subject">
-                            <input type="text" id="subject" name="subject" placeholder="Subject">
-                        </div>
-                        <div class="message">
-                            <textarea id="message" name="message" placeholder="Your message..."></textarea>
-                        </div>
-                        <input type="hidden" name="_next" value="http://jeffsproject.com/thank-you.html">
-                        <div class="submit">
-                            <input type="submit" value="Send Message">
-                        </div>
-                    </form>
+                <form action="https://formsubmit.co/jeffreyvavasour@gmail.com" method="POST" class="contact-form grid">
+                    <div class="name">
+                        <input type="text" id="name" name="name" placeholder="Name">
+                    </div>
+                    <div class="email">
+                        <input type="email" id="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="phone">
+                        <input type="number" id="phone" name="number" placeholder="Phone">
+                    </div>
+                    <div class="eircode">
+                        <input type="text" id="eircode" name="eircode" placeholder="Eircode">
+                    </div>
+                    <div class="subject">
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                    </div>
+                    <div class="message">
+                        <textarea id="message" name="message" placeholder="Your message..."></textarea>
+                    </div>
+                    <input type="hidden" name="_next" value="http://jeffsproject.com/thank-you.html">
+                    <div class="submit">
+                        <input type="submit" value="Send Message">
+                    </div>
+                </form>
             </div>
         </div>
     </section>
@@ -254,7 +216,7 @@
     <footer class="footer">
         <div class="container container-footer flex">
             <div class="div flow">
-                <a href="./index.html">
+                <a href="../index.html">
                     <div class="logo-footer flex">
                         <div class="logo-icon flex">
                             <span class="material-symbols-outlined md-56 clr-accent">
@@ -287,19 +249,19 @@
             <div class="div flow">
                 <h4 class="footer-heading uppercase">pages</h4>
                 <ul class="flow">
-                    <li><a href="html/index.html">Home</a></li>
-                    <li><a href="html/services.html">Services</a></li>
-                    <li><a href="html/about.html">About</a></li>
-                    <li><a href="html/contact.html">Contact</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class="div flow">
                 <h4 class="footer-heading uppercase">our services</h4>
                 <ul class="flow">
-                    <li><a href="html/emergency-electrician.html">Emergency electrician</a></li>
-                    <li><a href="html/domestic-electrician.html">Domestic electrician</a></li>
-                    <li><a href="html/commercial-electrician.html">Commercial electrician</a></li>
-                    <li><a href="html/services.html">All services</a></li>
+                    <li><a href="./emergency-electrician.html">Emergency electrician</a></li>
+                    <li><a href="./domestic-electrician.html">Domestic electrician</a></li>
+                    <li><a href="./commercial-electrician.html">Commercial electrician</a></li>
+                    <li><a href="./services.html">All services</a></li>
                 </ul>
             </div>
             <div class="div flow">
@@ -341,7 +303,8 @@
             </div>
         </div>
     </footer>
+    
     <!-- javascript -->
-    <script src="js/index.js"></script>
+    <script src="../js/index.js"></script>
 </body>
 </html>
